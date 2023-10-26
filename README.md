@@ -1,2 +1,2 @@
-# medface.ai
-Data and model ops repo for medface project
+# medface
+Attendance system using facial recognition
