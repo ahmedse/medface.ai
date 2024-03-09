@@ -9,7 +9,7 @@ for device in devices:
     print(f"ID: {device.id}, Name: {device.name}")
 import os
 # os.environ["CUDA_VISIBLE_DEVICES"] = "1"
-os.environ["CUDA_VISIBLE_DEVICES"]="-1"    
+# os.environ["CUDA_VISIBLE_DEVICES"]="-1"    
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 import tensorflow as tf
 gpus = tf.config.experimental.list_physical_devices('GPU')
